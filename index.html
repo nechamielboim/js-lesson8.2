@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+        <script src="lesson8_2.js"></script>
+</head>
+<body>
+    <input type="number" value="" id="p1">
+    <input type="button" value="save" onclick="changePrice()">
+    <input type="number" value="" id="c1" onblur="deleteCalories()">
+    <form>
+        <select id="s" onchange="saveDetail()">
+            <option value="info">info</option>
+            <option value="warning">warning</option>
+            <option value="error">error</option>
+        </select>
+        <input type="text" id="t">
+        <input type="text" id="c">
+        <input type="button" value="save" onclick="saveDetails()">
+
+    </form>
+</body>
+</html>
